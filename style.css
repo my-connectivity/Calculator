@@ -1,0 +1,109 @@
+/* Main calculator container */
+.calculator {
+  width: 350px;
+  margin: auto auto;
+  padding: 20px 20px;
+  background: linear-gradient(#2c2c2c, #1a1a1a);
+  border-radius: 15px;
+  /* box-shadow: 0 0px 0px rgba(0, 0, 0, 0.5); */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  border: 2px solid #444;
+}
+
+/* Display box styling */
+#display {
+  grid-column: span 4;
+  height: 70px;
+  font-size: 28px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: right;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  background: #d4e6c8;
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); */
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  background: #4a4a4a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background: #5e5e5e;
+}
+
+/* Button press effect */
+button:active {
+  transform: translateY(2px);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+}
+
+/* Clear button styling */
+.clear {
+  background: #ff4d4d;
+}
+
+/* Clear button hover */
+.clear:hover {
+  background: #e63939;
+}
+
+/* Delete button styling */
+.delete {
+  background: #ff8c00;
+}
+
+/* Delete button hover */
+.delete:hover {
+  background: #e67e00;
+}
+
+/* Square root button styling */
+.sqrt {
+  background: #9933cc;
+}
+
+/* Square root button hover */
+.sqrt:hover {
+  background: #8020b3;
+}
+
+/* Bracket button styling */
+.bracket {
+  background: #17a2b8;
+}
+
+/* Bracket button hover */
+.bracket:hover {
+  background: #138496;
+}
+
+/* Equals button styling */
+.equals {
+  background: #28a745;
+  grid-column: span 3;
+}
+
+/* Equals button hover */
+.equals:hover {
+  background: #218838;
+}

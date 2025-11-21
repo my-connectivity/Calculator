@@ -73,4 +73,5 @@ If it doesn't work, check if the files are in the same folder and the names matc
 This project was fun but challenging, especially the percentage part. If you find bugs, let me know! I'm still learning.
 
 Thanks for checking it out!  
-Made by [Aman Singh] (Beginner Dev)  
+
+Made by Beginner Dev
